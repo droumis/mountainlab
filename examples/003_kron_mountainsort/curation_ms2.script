@@ -8,7 +8,7 @@ for (var i in clusters) {
 	clusters[i].removeTag('low-snr');
 	clusters[i].removeTag('noise-overlapping');
 	clusters[i].removeTag('non-isolated');
-}
+};
 
 console.log('\nnoise_overlap');
 for (var i in clusters) {	
@@ -17,7 +17,7 @@ for (var i in clusters) {
 		clusters[i].addTag('rejected');
 		clusters[i].addTag('noise-overlapping');
 	}
-}
+};
 
 console.log('\npeak_snr');
 for (var i in clusters) {	
@@ -26,7 +26,7 @@ for (var i in clusters) {
 		clusters[i].addTag('rejected');
 		clusters[i].addTag('low-snr');
 	}
-}
+};
 
 console.log('\npeak_snr');
 for (var i in clusters) {	
@@ -35,5 +35,5 @@ for (var i in clusters) {
 		clusters[i].addTag('rejected');
 		clusters[i].addTag('non-isolated');
 	}
-}
+};
 
